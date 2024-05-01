@@ -20,6 +20,21 @@
             height: 400px;
         }
     }
+    .carousel-indicators button{
+        height: 13px !important;
+        width: 13px !important;
+        border-radius: 100%;
+        background-color:rgb(249 115 22) !important ;
+    }
+    .carousel-indicators .active{
+        background-color: rgb(249 115 22) !important;
+    }
+    .carousel-control-prev-icon{
+      background-color:   rgb(249 115 22); 
+    }
+    .carousel-control-next-icon{
+        background-color:   rgb(249 115 22); 
+    }
 /* company section */
 .coma-img{
     width: 300px;

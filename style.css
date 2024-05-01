@@ -1,100 +1,99 @@
-body{
-    font-family: "Poppins", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 /* Header section */
-.header-bg{
-    background-color: rgb(131 24 67);
+.header-bg {
+  background-color: rgb(131 24 67);
 }
-.img-first{
-    height: 85px;
-    width: 94px;
+.img-first {
+  height: 85px;
+  width: 94px;
 }
 /* Carusel section  */
-.caru-image{
-    height: 500px;
+.caru-image {
+  height: 500px;
 }
-@media screen and (min-width: 200px) and (max-width: 576px){
-    .caru-image{
-        height: 300px;
-    } 
-    }
-    @media screen and (min-width: 577px) and (max-width: 991px){
-        .caru-image{
-            height: 400px;
-        }
-    }
-    .carousel-indicators button{
-        height: 13px !important;
-        width: 13px !important;
-        border-radius: 100%;
-        background-color:rgb(249 115 22) !important ;
-    }
-    .carousel-indicators .active{
-        background-color: rgb(249 115 22) !important;
-    }
-    .carousel-control-prev-icon{
-      background-color:   rgb(249 115 22); 
-    }
-    .carousel-control-next-icon{
-        background-color:   rgb(249 115 22); 
-    }
+@media screen and (min-width: 200px) and (max-width: 576px) {
+  .caru-image {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .caru-image {
+    height: 400px;
+  }
+}
+.carousel-indicators button {
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 100%;
+  background-color: rgb(249 115 22) !important ;
+}
+.carousel-indicators .active {
+  background-color: rgb(249 115 22) !important;
+}
+.carousel-control-prev-icon {
+  background-color: rgb(249 115 22);
+}
+.carousel-control-next-icon {
+  background-color: rgb(249 115 22);
+}
 /* company section */
-.coma-img{
-    width: 300px;
+.coma-img {
+  width: 300px;
 }
-.btn-1{
-    background-color:rgb(23 37 84);
-    color: white;
+.btn-1 {
+  background-color: rgb(23 37 84);
+  color: white;
 }
 /* Products section */
-.product-img{
-    width: 70px;
+.product-img {
+  width: 70px;
 }
 .parasect {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #2c4964;
-  }
-  
-  .parasect::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
-  }
-  
-  .parasect::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: rgb(22, 38, 91);
-    bottom: 0;
-    left: calc(49.5% - 20px);
-  }
-  /* Read our latest */
-  .read-para{
-    color:   rgb(249 115 22)
-  }
-  .card-image{
-    height: 220px;
-  }
-  /* footer section */
-  .lastimage-fo{
-    width: 50px;
-    height: 50px;
-  }
-  .foo-image2{
-    margin-top: -43px;
-  }
-  
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2c4964;
+}
+
+.parasect::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.parasect::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(22, 38, 91);
+  bottom: 0;
+  left: calc(49.5% - 20px);
+}
+/* Read our latest */
+.read-para {
+  color: rgb(249 115 22);
+}
+.card-image {
+  height: 220px;
+}
+/* footer section */
+.lastimage-fo {
+  width: 50px;
+  height: 50px;
+}
+.foo-image2 {
+  margin-top: -43px;
+}
